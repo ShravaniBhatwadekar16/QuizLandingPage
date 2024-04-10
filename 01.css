@@ -1,0 +1,268 @@
+.body{
+    margin:0;
+    padding: 0;
+    
+}
+
+.navbar{
+    background-color: rgb(16, 130, 165);
+    height:65px;
+    width: 100%;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 40px;
+}
+.logo img {
+  margin-left: 50px;  
+  height: 70px; 
+  margin-top: 10px;
+}
+.nav-links {
+  list-style: none;
+  margin-right: 50px;
+  font-family: papyrus;
+   font-weight: bold;
+}
+.nav-links li {
+ margin-right: 40px;
+  display: inline;
+  margin-left: 30px;
+}
+.Register a{
+    color: black;
+    text-decoration: none;
+    margin-right: 40 px;
+    opacity: 0.5;
+}
+.name{
+    font-size: 2rem;
+    font-weight: 800;
+    margin-left: 40px ;
+    font-family: papyrus;
+}
+
+
+
+.pages a{
+    color: black;
+    text-decoration: none;
+    margin-right: 50px;
+    opacity: 0.5;
+    font-family: papyrus;
+}
+.pages a:hover{
+    opacity: 1;
+}
+.hero{
+    height: 550px;
+    width: 100%;
+    background-color: powderblue;
+}
+.heading{
+    color: goldenrod; 
+font-family: papyrus;
+text-align: center;
+font-size: larger;
+padding: 50px;
+}
+.subcontent{
+    font-family: papyrus; 
+    font-weight: bold;
+    color: rgb(16, 130, 165);
+   
+    text-align: center;
+}
+.homepara{
+    margin-left: 50px;
+    text-align: right;
+     color: rgb(16, 130, 165);
+     font-weight: bold;
+     width:90%; 
+     text-align: center;
+     font-size: large;
+     font-family: papyrus;
+    }
+.hero img{
+    width: 650px;
+    height: 650px;
+}
+.left-image {
+    float: left;
+    width: 40%; 
+}
+
+.nav-links a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.822);;
+}
+
+.nav-links a:hover
+{
+    color: rgb(255, 255, 255);
+}
+
+.btn button{
+    border: none;
+    display: inline-block;
+    padding: 8px 16px;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    color: #007bff; 
+    background-color: #ffffff; 
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: papyrus;
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+    margin-right: 20px;
+  }
+  
+
+  .btn button:hover {
+    background-color: #007bff;
+    color: #ffffff;
+  }
+  .page2{
+    height: 600px;
+    width:100%;
+    background-color: rgb(16, 130, 165);
+    text-align: right;
+  }
+.page2 h2{
+    margin-top:0px;
+    font-family: papyrus;
+    padding: 40px;
+    color: white;  
+  }
+.heading2{
+    color: goldenrod; 
+font-family: papyrus;
+text-align: center;
+font-size: medium;
+padding-top: 60px;
+
+
+}
+  
+  .para{
+   margin-left: 20px;
+   text-align: right;
+   text-align: justify;
+    color: white;
+    width:57%; 
+    font-size: medium;
+    font-family: papyrus;
+   
+  }
+  
+  .right-image {
+    float: right;
+    width: 40%; 
+  }
+
+
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.contact-section {
+    background-color: powderblue;
+    padding: 50px;
+    text-align: center;
+    height: 550px;
+    color: black;
+    text-align: center;
+}
+.left-image {
+    float: left;
+    width: 40%;
+  }
+  
+.contact-section h2 {
+    font-family: papyrus;
+    margin-bottom: 30px;
+    color: goldenrod;
+    
+}
+
+.contact-form {
+    font-family: papyrus;
+    max-width: 800px;
+    margin: 0 auto;
+    float: right;
+    
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid rgb(16, 130, 165);
+    border-radius: 5px;
+    box-shadow: none;
+    font-family: papyrus;
+}
+
+.contact-form textarea {
+    height: 150px;
+}
+
+.contact-form button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-family: papyrus;
+}
+
+.contact-form button:hover {
+    background-color: #0056b3;
+}
+
+
+footer {
+    background-color:rgb(16, 130, 165);
+    color: #fff;
+    padding: 20px;
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+  }
+  .webname{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    margin-left: 300px;
+  }
+  
+
+  .additional-info {
+    flex-basis: 45%; 
+    margin-left: 50px;
+    font-family: papyrus;
+  }
+  .additional-info ul {
+    list-style: none;
+    padding: 0;
+    
+  }
+  
+  .additional-info ul li {
+    margin-bottom: 5px;
+  }
+  .additional-info ul li {
+    margin-bottom: 5px;
+  }
+
